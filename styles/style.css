@@ -142,14 +142,13 @@ body {
 }
 .main-grid-part-2 > div {
     display: grid;
-    align-items: center;
     font-family: "Gilam";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #fff;
+    padding: 44px 0 0 51px;
 }
 
 .main-grid-part-2-div1 {
@@ -163,22 +162,27 @@ body {
 .main-grid-part-2-div3 {
     grid-area: div3;
     background-color: #1f1f1f;
+    height: 255px;
 }
 .main-grid-part-2-div4 {
     grid-area: div4;
     background-color: #1f1f1f;
 }
-.main-grid-part-2-div5 {
+.main-grid-part-2 .main-grid-part-2-div5 {
     grid-area: div5;
     background-color: #e4b564;
+    color: #000;
+    height: 405px;
 }
 .main-grid-part-2-div6 {
     grid-area: div6;
     background-color: #0e0e0e;
+    height: 313px;
 }
 .main-grid-part-2-div7 {
     grid-area: div7;
     background-color: #0a0909;
+    height: 277px;
 }
 
 .main-last-block {
